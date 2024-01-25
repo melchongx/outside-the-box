@@ -1,3 +1,7 @@
 .blueShadow {
   box-shadow: 0.25rem 0.35rem 0 0 #64bbfe;
 }
+
+.listItem::before {
+  content: ' - ';
+}
